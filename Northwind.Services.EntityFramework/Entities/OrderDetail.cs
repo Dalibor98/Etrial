@@ -1,5 +1,3 @@
-using Northwind.Services.Repositories;
-
 namespace Northwind.Services.EntityFramework.Entities
 {
     public class OrderDetail
@@ -10,7 +8,7 @@ namespace Northwind.Services.EntityFramework.Entities
 
         public decimal UnitPrice { get; set; }
 
-        public short Quantity { get; set; }
+        public int Quantity { get; set; }
 
         public float Discount { get; set; }
 
